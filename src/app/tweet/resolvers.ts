@@ -27,6 +27,7 @@ const queries = {
       "image/jpeg",
       "image/png",
       "image/webp",
+      "image/heic"
     ];
     if (!allowedImageTypes.includes(imageType))
       throw new Error("Unsupported Image Type");
